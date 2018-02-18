@@ -15,8 +15,8 @@ spec:
         app: azurestatic
     spec:
       containers:
-      - name: cubie
-        image: uswazurecontrainerregistry.azurecr.io/azurestatic:v1.1
+      - name: azurestatic
+        image: uswazurecontrainerregistry.azurecr.io/azurestatic:latest
         ports:
         - containerPort: 80
         resources:
